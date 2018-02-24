@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/WebDevYooSeok/expressCrashTutorial/issues"
   },
-  "homepage": "https://github.com/WebDevYooSeok/expressCrashTutorial#readme"
+  "homepage": "https://github.com/WebDevYooSeok/expressCrashTutorial#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
 }
