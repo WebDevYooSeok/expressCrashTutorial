@@ -53,7 +53,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 //    route   //
 app.get('/', function(req, res){
   res.render('index', {
-    title:'Customers'
+    title:'Customers',
+    users: users
   });
 })
 

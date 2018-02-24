@@ -16,3 +16,6 @@ ejs Syntax
 
 <%= {{variable name}} %><br />
 <% include partials/{{directory name}} %><br />
+<% arrayObj.forEach(function(obj){ %> <br />
+  <% = obj.attr %> <br />
+<% }) %><br />

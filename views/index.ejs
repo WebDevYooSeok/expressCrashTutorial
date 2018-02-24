@@ -5,7 +5,9 @@
 
 
     <h1>HELLO <%= title %></h1>
-
+    <p><% users.forEach(function(user){ %>
+      <p><%= user.first_name %></p>
+    <%}) %></p>
 
 
 
