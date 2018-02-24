@@ -58,6 +58,10 @@ app.get('/', function(req, res){
   });
 })
 
+app.post('/users/add', function(req, res){
+  console.log('form submiited');
+  console.log(req.body.first_name);
+})
 app.listen(3000, function(){
   console.log('server started on Port 3000 ...');
 })

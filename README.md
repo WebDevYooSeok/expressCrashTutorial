@@ -22,3 +22,7 @@ for loop Syntax
 <% arrayObj.forEach(function(obj){ %> <br />
   <% = obj.attr %> <br />
 <% }) %><br />
+
+req variable
+
+req.body.{name attr from HTML tag}
