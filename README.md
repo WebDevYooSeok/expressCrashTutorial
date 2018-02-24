@@ -1,13 +1,13 @@
 # expressCrashTutorial
 This is express Crash Tutorial
 
-$ npm init - creating package.json
-$ npm install express --save
-$ npm install body-parser --save
-$ npm install nodemon -g
-$ npm install ejs --save
+$ npm init - creating package.json<br />
+$ npm install express --save<br />
+$ npm install body-parser --save<br />
+$ npm install nodemon -g<br />
+$ npm install ejs --save<br />
 
 ejs Syntax
 
-<%= {{variable name}} %>
-<% include partials/{{directory name}} %>
+<%= {{variable name}} %><br />
+<% include partials/{{directory name}} %><br />
