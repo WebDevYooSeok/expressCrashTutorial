@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/WebDevYooSeok/expressCrashTutorial#readme",
   "dependencies": {
-    "express": "*",
-    "body-parser": "*"
+    "body-parser": "*",
+    "ejs": "^2.5.7",
+    "express": "*"
   }
 }
