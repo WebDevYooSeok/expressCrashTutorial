@@ -1,6 +1,11 @@
 # expressCrashTutorial
 This is express Crash Tutorial
 
+inspried by
+
+ExpressJS Crash Course<br />
+https://www.youtube.com/watch?v=gnsO8-xJ8rs&t=263s
+
 $ npm init - creating package.json<br />
 $ npm install express --save<br />
 $ npm install body-parser --save<br />
