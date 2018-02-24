@@ -20,5 +20,8 @@
     "url": "https://github.com/WebDevYooSeok/expressCrashTutorial/issues"
   },
   "homepage": "https://github.com/WebDevYooSeok/expressCrashTutorial#readme",
-  "dependencies": {}
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*"
+  }
 }
