@@ -46,8 +46,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
 // global variable
-app.use(function(req,res,next){
-  res.local.errors = null;
+app.use(function(req, res, next){
+  res.locals.errors = null;
   next();
 });
 

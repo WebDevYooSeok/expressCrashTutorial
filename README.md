@@ -15,24 +15,30 @@ $ npm install nodemon -g<br />
 $ npm install ejs --save<br />
 $ npm install express-validator --save<br />
 
-ejs Syntax
+* ejs Syntax
 
 <%= {{variable name}} %><br />
 <% include partials/{{directory name}} %><br />
 
-for loop Syntax
+* for loop Syntax
 
 <% arrayObj.forEach(function(obj){ %> <br />
   <% = obj.attr %> <br />
 <% }) %><br />
 
-req variable
+* req variable
 
-req.body.{name attr from HTML tag}<br />
+var some = req.body.{name attr from HTML tag}<br />
+var errors = req.validationErrors();<br />
 
 
-express-validator usage
+* express-validator usage
 
 req.checkBody('{{id from HTML tag}}', '{{error message}}').notEmpty()<br />
 
-var errors = req.validationErrors();<br />
+* setting global variable
+
+app.use(function(req, res, next){<br />
+  res.locals.errors = null;<br />
+  next();<br />
+});<br />
