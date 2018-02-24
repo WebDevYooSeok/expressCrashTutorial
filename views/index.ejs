@@ -1,7 +1,10 @@
 <% include partials/header %>
 
 
-
+<% if (errors){ %>
+  <% errors.forEach(function(error){)%>
+  <%=error.msg %>
+<% } %>
 
 
     <h1>HELLO <%= title %></h1>

@@ -11,6 +11,7 @@ $ npm install express --save<br />
 $ npm install body-parser --save<br />
 $ npm install nodemon -g<br />
 $ npm install ejs --save<br />
+$ npm install express-validator --save<br />
 
 ejs Syntax
 
@@ -25,4 +26,11 @@ for loop Syntax
 
 req variable
 
-req.body.{name attr from HTML tag}
+req.body.{name attr from HTML tag}<br />
+
+
+express-validator usage
+
+req.checkBody('{{id from HTML tag}}', '{{error message}}').notEmpty()<br />
+
+var errors = req.validationErrors();<br />
